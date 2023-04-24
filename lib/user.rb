@@ -1,4 +1,5 @@
 class User
+
   attr_accessor :email, :age
   @@all_users = []
 
@@ -11,4 +12,13 @@ class User
   def self.all
     return @@all_users
   end
+
+  def self.find_by_email(email)
+    User.all.each do |user|
+      if user.email == email
+        return user
+      end
+    end
+  end
+
 end

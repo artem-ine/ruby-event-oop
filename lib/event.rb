@@ -30,10 +30,10 @@ class Event
   end
 
   def to_s
-    puts "Titre : #{@title}"
-    puts "Date de début : #{start_date}"
-    puts "Durée : #{@duration}"
-    puts "Invités : #{attendees}"
+    puts "Name: #{@title}"
+    puts "Start date: #{start_date}"
+    puts "Duration: #{@duration}"
+    puts "Attendees: #{attendees}"
   end
 
 end
