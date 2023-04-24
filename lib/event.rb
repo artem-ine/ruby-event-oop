@@ -33,7 +33,7 @@ class Event
     puts "Name: #{@title}"
     puts "Start date: #{start_date}"
     puts "Duration: #{@duration}"
-    puts "Attendees: #{attendees}"
+    puts "Attendees : #{attendees}"
   end
 
 end
